@@ -1,0 +1,290 @@
+@media screen and  (max-width: 768px) {
+    /*home left*/
+  #home{
+    display: flex;
+    position: relative;
+    flex-direction: column-reverse;
+    
+}
+.home-left{
+    width: 100%;
+    height: 100%;
+  
+}
+
+.home-left-cont{
+    margin-left: 15%;
+}
+.img-absolute{
+    position: absolute;
+    top: 690px;
+    left: 200px;
+   
+}
+
+/*home right*/
+#home-right{
+    width: 100%;
+}
+
+.home-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-right .icons{
+    margin-top: 20px;
+}
+
+.home-body-container{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .home-body{
+        max-width: 490px;
+        margin-left: 15%;
+    }   
+    .home-icons-right{
+        margin-right: 7%;
+        margin-top: 15%;
+    }    
+
+#home button{
+    margin-top: 10px;
+    margin-left: 0;
+ }   
+
+
+
+ /*proizvodi*/
+
+ #proizvodi{
+    background: url('../img/home/Mask\ Group\ 7.png') no-repeat left center/cover;
+    width: 100%;
+    height: 100%;
+}
+
+#proizvodi .container{
+   padding-left: 20%;
+  max-width: 660px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  
+}
+
+/*rasprodaja*/
+#rasprodaja {
+    background: url('../img/home/Mask\ Group\ 13@2x.png') no-repeat right center/cover;
+}
+
+#rasprodaja .container{
+    padding: 150px 0;
+    max-width: 660px;
+    padding-left: 20%;
+   
+}
+
+/*Akcije*/
+#akcije .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#akcije .body-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#akcije .container div{
+    padding-bottom: 20px;
+    border-bottom:#727374 dotted 1px;
+}
+
+#akcije .container >*:last-child{
+    border-bottom: none;
+}
+
+/*Forma*/
+
+#forma .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-left: 3%;
+    
+}
+
+#forma .body-container{
+    padding: 100px 0;
+}
+
+.forma-img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*Kontakt*/
+
+#kontakt .container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+#kontakt .div-x{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom:#727374 dotted 1px;
+}
+}
+
+
+/*Mobilni-responzivnost*/
+
+@media screen  and (max-width: 425px) {
+
+    /*home*/
+    .home-right-container{
+        margin-left: 5%;
+    }
+
+    .home-right-container .icons{
+       
+        margin-right: 10%;
+    }
+    .home-right-container a{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        padding-left: 0;
+        text-decoration: none;
+        color: #656565;
+        border-bottom:#727374 dotted 1px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .home-body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        }    
+
+    .home-icons-right{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-left: 20%;
+        
+    }    
+    .home-icons-right img{
+        padding-right: 10px;
+    }
+
+    #home .home-left .home-pics img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        padding-left: 10%;
+        
+    }
+
+    #home .home-left .home-pics >*:first-child{
+        width: 250px;
+        padding-left: 10%;
+    }
+    .img-absolute{
+        display: none;
+    }
+
+    /*proizvodi*/
+
+    #proizvodi .container{
+       padding-left: 20%;
+       max-width: 330px;
+       padding-top: 100px;
+       padding-bottom: 100px;
+       
+     
+}
+
+#proizvodi .naslovh4 h4{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 0;
+    border-bottom: #a8aaad 3px solid;
+    max-width: 150px;
+    cursor: pointer;
+}
+
+#proizvodi .container hr{
+    display: none;
+}
+
+/*rasprodaja*/
+#rasprodaja .container{
+    padding: 200px 0;
+    max-width: 330px;
+    padding-left: 20%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#rasprodaja button{
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 18px;
+}
+
+/*Akcije*/
+#akcije .body-container{
+    padding: 200px 0;
+    max-width: 330px;
+    padding-left: 20%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*Forma*/
+#forma .body-container{
+    padding: 200px 0;
+    max-width: 330px;
+    padding-left: 20%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#forma .container img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/*Kontakt*/
+#kontakt .container{
+    padding: 200px 0;
+    max-width: 340px;
+    padding-left: 20%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#kontakt .footer-copyright p{
+    padding-left: 10%;
+    max-width: 330px;
+    font-size: 16px;
+}
+
+}
