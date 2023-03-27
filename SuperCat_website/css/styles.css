@@ -1,0 +1,159 @@
+body{
+    font-family: 'Montserrat'sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+/*headings*/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat'sans-serif; 
+    font-weight: 900;
+}
+.big-heading{
+    font-family: 'Montserrat'sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;   
+}
+/*Navigation bar*/
+.navbar{
+    padding:0 0 4.5rem;/*0 gore, 0 lijevo i desno, 4.5 dolje*/
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light'sans-serif;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*Title*/
+#title img{
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+#title{
+    background-color: #609966;
+    color: #fff;   
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/*Features*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /*z-index: 1; moze da radi sa ovim i bez, jer sam stavila na sliku position absolute a na features relative, posto je features ispod slike postavljeno  u htmlu, slika ide iza featuresa*/
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+#features i{
+color: #9DC08B;
+margin-bottom: 1rem;
+}
+
+#features i:hover{
+    color: #609966;
+}
+#features h3{
+    font-size: 1.5rem;
+}
+
+/*Testimonials section*/
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #9DC08B;
+    color: #fff;
+}
+
+#testimonials img{
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-text{
+    font-size: 3.5rem;
+    font-weight:700;
+    line-height: 1.5; 
+}
+/*Press*/
+#press{
+    background-color: #9DC08B;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*PRICING*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/*MEDIA*/
+@media (max-width: 1137px){
+#title{
+    text-align: center;
+}
+
+    #title img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*CTA*/
+#cta{
+    background-color: #609966;
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+}
+#cta h3{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/*FOOTER*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer i{
+    margin: 20px 10px;
+}
+#footer a{
+    color: black;
+}
+#footer i:hover{
+    color: #609966;
+}
